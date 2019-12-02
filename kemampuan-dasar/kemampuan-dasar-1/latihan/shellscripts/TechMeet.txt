@@ -1,0 +1,23 @@
+Profile Praxis Academy
+
+Bulan Pertama
+Materi, project kecil
+
+Bulan Kedua Ketiga
+Project
+
+Kenap Program Enterprise?
+Prinsipnya adalah arsitektural entrprise, ketika hype tinggi masih bisa menghandle
+
+Mekanisme Bootcamp:
+Kemampuan Dasar
+Perjanjian Komitmen
+Pemahaman Materi > 1 bulan
+	Jadwal harian
+	9-10 materi
+	10-12 case
+	13-17 case
+	case wajib dipush di Git maksimal jam 12 malam
+	Scrum, pagi & sore
+Implementasi Materi 2 Bulan
+

@@ -114,3 +114,129 @@ Linux+Hint is a good tutorial blog site
 adipurnamk@Vea-576G:~$ nano substring_example.sh
 adipurnamk@Vea-576G:~$ bash substring_example.sh 
 Linux
+
+adipurnamk@Vea-576G:~$ nano add_numbers.sh
+adipurnamk@Vea-576G:~$ bash add_numbers.sh 
+Enter first number
+15
+Enter second number
+20
+The result of addition=35
+
+adipurnamk@Vea-576G:~$ nano function_example.sh
+adipurnamk@Vea-576G:~$ bash function_example.sh 
+I like bash programming
+
+adipurnamk@Vea-576G:~$ nano function_parameter.sh
+adipurnamk@Vea-576G:~$ bash function_parameter.sh 
+Area is : 200
+
+adipurnamk@Vea-576G:~$ nano function_return.sh
+adipurnamk@Vea-576G:~$ bash function_return.sh 
+Enter your name
+adipurna
+Return value of the function is Hello, adipurna
+
+adipurnamk@Vea-576G:~$ nano make_directory.sh
+adipurnamk@Vea-576G:~$ bash make_directory.sh 
+Enter directory name
+baru
+
+adipurnamk@Vea-576G:~$ nano directory_exist.sh
+adipurnamk@Vea-576G:~$ bash directory_exist.sh 
+Enter diectory name
+Musik
+Directory exist
+adipurnamk@Vea-576G:~$ bash directory_exist.sh 
+Enter diectory name
+musik
+Directory created
+adipurnamk@Vea-576G:~$ 
+
+dipurnamk@Vea-576G:~$ nano read_file.sh
+adipurnamk@Vea-576G:~$ bash read_file.sh 
+read_file.sh: baris 5: book.txt: Tidak ada berkas atau direktori seperti itu
+adipurnamk@Vea-576G:~$ bash read_file.sh 
+# Kemampuan Dasar
+
+## Memahami Ruang Lingkup Pengembangan Software
+
+1. Teknologi informasi dan teknologi software
+2. Metodologi Pengembangan Software
+
+### Tujuan
+
+1. Memahami teknologi informasi secara umum dan kaitannya dengan software.
+2. Memahami ranah pendidikan yang terkait dengan teknologi informasi: istilah teknik informatika / *informatics*, ilmu komputer / *computer science*.
+3. Memahami arti penting dari metodologi pengembangan software
+4. Memahami Agile Software Development secara umum
+5. Memahami dasar yang kuat dari praktik Agile Software Development: Extreme Programming dan Scrum
+
+### Pembahasan
+
+1. Teknologi informasi dan teknologi software
+2. Metodologi pengembangan software
+3. Extreme Programming dan Scrum
+
+### Pembelajaran
+
+```
+Materi dan Penjelasan
+```
+adipurnamk@Vea-576G:~$ nano delete_file.sh
+adipurnamk@Vea-576G:~$ bash delete_file.sh 
+Enter filename to remove
+book.txt
+rm: menghapus berkas regular 'book.txt'? y
+
+adipurnamk@Vea-576G:~$ nano append_file.sh
+adipurnamk@Vea-576G:~$ bash append_file.sh 
+Before appending the file
+1
+2
+3
+After appending the file
+1
+2
+3
+Learning Laravel 5
+
+adipurnamk@Vea-576G:~$ nano file_exist.sh
+adipurnamk@Vea-576G:~$ bash file_exist.sh make_directory.sh 
+File exist
+adipurnamk@Vea-576G:~$ bash file_exist.sh aaaaa
+File does not exist
+
+adipurnamk@Vea-576G:~$ nano date_parse.sh 
+adipurnamk@Vea-576G:~$ bash date_parse.sh 
+date_parse.sh: baris 2: +%Y: perintah tidak ditemukan
+2019
+date_parse.sh: baris 4: +%d: perintah tidak ditemukan
+date_parse.sh: baris 5: +%H: perintah tidak ditemukan
+date_parse.sh: baris 6: +%M: perintah tidak ditemukan
+date_parse.sh: baris 7: +%S: perintah tidak ditemukan
+date
+Current Date is: --
+Current Time is: ::
+adipurnamk@Vea-576G:~$ nano date_parse.sh 
+adipurnamk@Vea-576G:~$ bash date_parse.sh 
+date_parse.sh: baris 2: +%Y: perintah tidak ditemukan
+2019
+date_parse.sh: baris 4: +%d: perintah tidak ditemukan
+date_parse.sh: baris 5: +%H: perintah tidak ditemukan
+date_parse.sh: baris 6: +%M: perintah tidak ditemukan
+date_parse.sh: baris 7: +%S: perintah tidak ditemukan
+date
+Current Date is: --
+Current Time is: ::
+
+adipurnamk@Vea-576G:~$ nano wait_example.sh
+adipurnamk@Vea-576G:~$ bash wait_example.sh 
+Wait command
+Exited with status 0
+
+
+
+
+
+
