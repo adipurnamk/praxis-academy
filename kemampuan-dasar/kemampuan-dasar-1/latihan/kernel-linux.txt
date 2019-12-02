@@ -1,0 +1,13 @@
+lokasi kernel linux
+/boot/
+
+adipurnamk@Vea-576G:~$ ls /boot/
+config-5.3.0-18-generic      memtest86+.bin
+config-5.3.0-23-generic      memtest86+.elf
+efi                          memtest86+_multiboot.bin
+grub                         System.map-5.3.0-18-generic
+initrd.img                   System.map-5.3.0-23-generic
+initrd.img-5.3.0-18-generic  vmlinuz
+initrd.img-5.3.0-23-generic  vmlinuz-5.3.0-18-generic
+initrd.img.old               vmlinuz-5.3.0-23-generic
+

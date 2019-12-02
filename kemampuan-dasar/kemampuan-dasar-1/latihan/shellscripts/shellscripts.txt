@@ -1,0 +1,116 @@
+adipurnamk@Vea-576G:~$ echo "Hello World!"
+Hello World!
+
+adipurnamk@Vea-576G:~$ nano First.sh
+adipurnamk@Vea-576G:~$ bash First.sh 
+Hello World
+adipurnamk@Vea-576G:~$ chmod a+x First.sh 
+adipurnamk@Vea-576G:~$ ./First.sh 
+Hello World
+
+adipurnamk@Vea-576G:~$ nano echo_example.sh
+adipurnamk@Vea-576G:~$ bash echo_example.sh 
+Printing the text with newline
+Printing text without newline
+ Removing 	 backlash 	 characters
+
+adipurnamk@Vea-576G:~$ nano comment_example.sh
+adipurnamk@Vea-576G:~$ bash comment_example.sh 
+60
+
+adipurnamk@Vea-576G:~$ nano multiline-comment.sh
+adipurnamk@Vea-576G:~$ bash multiline-comment.sh 
+25
+
+adipurnamk@Vea-576G:~$ nano while_example.sh
+adipurnamk@Vea-576G:~$ bash while_example.sh 
+1
+2
+3
+4
+5 
+
+adipurnamk@Vea-576G:~$ nano for_example.sh
+adipurnamk@Vea-576G:~$ bash for_example.sh 
+10 9 8 7 6 5 4 3 2 1 
+
+adipurnamk@Vea-576G:~$ bash user_input.sh 
+Enter Your Name
+adipurna
+Welcome adipurna to LinuxHint
+
+adipurnamk@Vea-576G:~$ nano simple_if.sh
+adipurnamk@Vea-576G:~$ bash simple_if.sh 
+It is a two digit number
+
+adipurnamk@Vea-576G:~$ nano if_with_AND.sh 
+adipurnamk@Vea-576G:~$ bash if_with_AND.sh 
+Enter username
+admin
+Enter password
+secret
+Valid user
+adipurnamk@Vea-576G:~$ bash if_with_AND.sh 
+Enter username
+secret 
+Enter password
+admin
+Invalid user
+
+adipurnamk@Vea-576G:~$ nano if_with_OR.sh
+adipurnamk@Vea-576G:~$ bash if_with_OR.sh 
+Enter any number
+15
+You won the game
+adipurnamk@Vea-576G:~$ bash if_with_OR.sh 
+Enter any number
+45
+You won the game
+adipurnamk@Vea-576G:~$ bash if_with_OR.sh 
+Enter any number
+10
+You lose the game
+
+adipurnamk@Vea-576G:~$ nano elseif_example.sh
+adipurnamk@Vea-576G:~$ bash elseif_example.sh 
+Enter your lucky number
+101
+You got 1st prize
+adipurnamk@Vea-576G:~$ bash elseif_example.sh 
+Enter your lucky number
+510
+You got 2nd prize
+adipurnamk@Vea-576G:~$ bash elseif_example.sh 
+Enter your lucky number
+999
+You got 3rd prize
+adipurnamk@Vea-576G:~$ bash elseif_example.sh 
+Enter your lucky number
+1000
+Sorry, try for the next time
+adipurnamk@Vea-576G:~$ 
+
+adipurnamk@Vea-576G:~$ nano command_line.sh
+adipurnamk@Vea-576G:~$ bash command_line.sh 
+Total arguments : 0
+1st Argument =
+2nd Argument =
+adipurnamk@Vea-576G:~$ bash command_line.sh satu dua
+Total arguments : 2
+1st Argument =satu
+2nd Argument =dua
+
+adipurnamk@Vea-576G:~$ nano command_line_names.sh
+adipurnamk@Vea-576G:~$ bash command_line_names.sh 
+X+Y=0
+adipurnamk@Vea-576G:~$ bash command_line_names.sh  X=10 Y=20
+X+Y=30
+
+adipurnamk@Vea-576G:~$ nano string_combine.sh 
+adipurnamk@Vea-576G:~$ bash string_combine.sh 
+LinuxHint
+Linux+Hint is a good tutorial blog site
+
+adipurnamk@Vea-576G:~$ nano substring_example.sh
+adipurnamk@Vea-576G:~$ bash substring_example.sh 
+Linux

@@ -1,0 +1,1 @@
+grub tidak muncul parameter

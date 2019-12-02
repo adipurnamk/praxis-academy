@@ -1,0 +1,122 @@
+adipurnamk@Vea-576G:~$ ls
+Desktop  Downloads  hardwarespecs.html  Publik  Templat  Video
+Dokumen  Gambar     Musik               snap    Unduhan
+
+adipurnamk@Vea-576G:~$ ls -R
+.:
+Desktop  Downloads  hardwarespecs.html  Publik  Templat  Video
+Dokumen  Gambar     Musik               snap    Unduhan
+
+./Desktop:
+
+./Dokumen:
+
+./Downloads:
+
+./Gambar:
+
+./Musik:
+
+./Publik:
+
+./snap:
+slack
+
+./snap/slack:
+19  common  current
+
+./snap/slack/19:
+
+./snap/slack/common:
+
+./Templat:
+
+./Unduhan:
+
+./Video:
+
+adipurnamk@Vea-576G:~$ ls -al
+total 196
+drwxr-xr-x 23 adipurnamk adipurnamk  4096 Des  1 21:52 .
+drwxr-xr-x  3 root       root        4096 Nov 30 16:30 ..
+-rw-------  1 adipurnamk adipurnamk   818 Des  1 21:54 .bash_history
+-rw-r--r--  1 adipurnamk adipurnamk   220 Nov 30 16:30 .bash_logout
+-rw-r--r--  1 adipurnamk adipurnamk  3771 Nov 30 16:30 .bashrc
+drwxr-x--- 23 adipurnamk adipurnamk  4096 Des  1 21:15 .cache
+drwxr-x--- 21 adipurnamk adipurnamk  4096 Des  1 20:44 .config
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:11 Desktop
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:11 Dokumen
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:56 Downloads
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Des  1 21:52 Gambar
+drwx------  2 adipurnamk adipurnamk  4096 Nov 30 19:21 .gconf
+drwx------  3 adipurnamk adipurnamk  4096 Nov 30 18:30 .gnome
+drwx------  3 adipurnamk adipurnamk  4096 Nov 30 17:29 .gnupg
+drwxr--r--  2 adipurnamk adipurnamk  4096 Des  1 21:31 .hardinfo
+-rw-r--r--  1 adipurnamk adipurnamk 89732 Des  1 21:35 hardwarespecs.html
+drwx------  3 adipurnamk adipurnamk  4096 Nov 30 17:11 .local
+drwx------  5 adipurnamk adipurnamk  4096 Nov 30 17:12 .mozilla
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:11 Musik
+drwx------  3 adipurnamk adipurnamk  4096 Nov 30 17:56 .pki
+-rw-r--r--  1 adipurnamk adipurnamk   807 Nov 30 16:30 .profile
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:11 Publik
+drwxr-xr-x  3 adipurnamk adipurnamk  4096 Nov 30 17:56 snap
+drwx------  2 adipurnamk adipurnamk  4096 Nov 30 17:29 .ssh
+-rw-r--r--  1 adipurnamk adipurnamk     0 Nov 30 18:47 .sudo_as_admin_successful
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:11 Templat
+drwx------  6 adipurnamk adipurnamk  4096 Nov 30 17:22 .thunderbird
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Des  1 21:52 Unduhan
+drwxr-xr-x  2 adipurnamk adipurnamk  4096 Nov 30 17:11 Video
+
+adipurnamk@Vea-576G:~$ ls -a
+.              Dokumen             .local    .sudo_as_admin_successful
+..             Downloads           .mozilla  Templat
+.bash_history  Gambar              Musik     .thunderbird
+.bash_logout   .gconf              .pki      Unduhan
+.bashrc        .gnome              .profile  Video
+.cache         .gnupg              Publik
+.config        .hardinfo           snap
+Desktop        hardwarespecs.html  .ssh
+
+adipurnamk@Vea-576G:~$ cat>filebaru
+testtesttest
+adipurnamk@Vea-576G:~$ cat filebaru
+testtesttest
+adipurnamk@Vea-576G:~$ ls
+Desktop  Downloads  Gambar              Musik   snap     Unduhan
+Dokumen  filebaru   hardwarespecs.html  Publik  Templat  Video
+
+adipurnamk@Vea-576G:~$ rm filebaru
+adipurnamk@Vea-576G:~$ ls
+Desktop  Downloads  hardwarespecs.html  Publik  Templat  Video
+Dokumen  Gambar     Musik               snap    Unduhan
+
+adipurnamk@Vea-576G:~$ mv hardwarespecs.html /home/adipurnamk/Downloads/
+adipurnamk@Vea-576G:~$ ls
+Desktop  Downloads  Musik   snap     Unduhan
+Dokumen  Gambar     Publik  Templat  Video
+adipurnamk@Vea-576G:~$ cd /home/adipurnamk/Downloads/
+adipurnamk@Vea-576G:~/Downloads$ ls
+hardwarespecs.html
+
+adipurnamk@Vea-576G:~/Downloads$ mv hardwarespecs.html spesifikasiperangkatkeras.html
+adipurnamk@Vea-576G:~/Downloads$ ls
+spesifikasiperangkatkeras.html
+
+adipurnamk@Vea-576G:~$ mkdir folderbaru
+adipurnamk@Vea-576G:~$ ls
+Desktop  Downloads   Gambar  Publik  Templat  Video
+Dokumen  folderbaru  Musik   snap    Unduhan
+adipurnamk@Vea-576G:~$ mkdir /home/adipurnamk/Downloads/Compressed
+dipurnamk@Vea-576G:~$ ls /home/adipurnamk/Downloads
+Compressed  spesifikasiperangkatkeras.html
+
+adipurnamk@Vea-576G:~$ rmdir folderbaru
+adipurnamk@Vea-576G:~$ ls
+Compressed  Dokumen    Gambar  Publik  Templat  Video
+Desktop     Downloads  Musik   snap    Unduhan
+adipurnamk@Vea-576G:~$ rmdir /home/adipurnamk/Downloads/Compressed
+adipurnamk@Vea-576G:~$ ls /home/adipurnamk/Downloads
+spesifikasiperangkatkeras.html
+adipurnamk@Vea-576G:~$ 
+
+
