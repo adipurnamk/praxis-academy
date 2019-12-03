@@ -1,0 +1,69 @@
+(base) adipurnamk@Vea-576G:~$ pip install -U pip
+Requirement already up-to-date: pip in ./.local/lib/python3.7/site-packages (19.3.1)
+(base) adipurnamk@Vea-576G:~$ cls
+
+Perintah 'cls' tidak ditemukan, tapi ada 19 yang serupa.
+
+(base) adipurnamk@Vea-576G:~$ clear
+
+(base) adipurnamk@Vea-576G:~$ $ pip install SomePackage
+$: perintah tidak ditemukan
+(base) adipurnamk@Vea-576G:~$ pip install SomePackage
+Collecting SomePackage
+  Downloading https://files.pythonhosted.org/packages/81/f6/cdc617199548a495fd034a4128bb33b35857d2ddb97ddf25c4f29302569e/somepackage-1.2.3.tar.gz
+Building wheels for collected packages: SomePackage
+  Building wheel for SomePackage (setup.py) ... done
+  Created wheel for SomePackage: filename=somepackage-1.2.3-cp37-none-any.whl size=9288 sha256=c668fb137487403ff8c7e79ca3f49cd221785c37112098aa1f12928f0cf7a5ee
+  Stored in directory: /home/adipurnamk/.cache/pip/wheels/8f/99/38/629e5a3389c43538eb1c242508e84750aefbf4894a65ef5b1f
+Successfully built SomePackage
+Installing collected packages: SomePackage
+Successfully installed SomePackage-1.2.3
+(base) adipurnamk@Vea-576G:~$ pip install SomePackage-1.0-py2.py3-none-any.whl
+WARNING: Requirement 'SomePackage-1.0-py2.py3-none-any.whl' looks like a filename, but the file does not exist
+Processing ./SomePackage-1.0-py2.py3-none-any.whl
+ERROR: Could not install packages due to an EnvironmentError: [Errno 2] Tidak ada berkas atau direktori seperti itu: '/home/adipurnamk/SomePackage-1.0-py2.py3-none-any.whl'
+
+(base) adipurnamk@Vea-576G:~$ pip show --files SomePackage
+Name: somepackage
+Version: 1.2.3
+Summary: Show how to structure a Python project.
+Home-page: https://github.com/bast/somepackage
+Author: Bruce Wayne
+Author-email: bruce.wayne@example.com
+License: MPL-2.0
+Location: /home/adipurnamk/miniconda3/lib/python3.7/site-packages
+Requires: 
+Required-by: 
+Files:
+  somepackage-1.2.3.dist-info/INSTALLER
+  somepackage-1.2.3.dist-info/LICENSE
+  somepackage-1.2.3.dist-info/METADATA
+  somepackage-1.2.3.dist-info/RECORD
+  somepackage-1.2.3.dist-info/WHEEL
+  somepackage-1.2.3.dist-info/top_level.txt
+  somepackage/__init__.py
+  somepackage/__pycache__/__init__.cpython-37.pyc
+  somepackage/__pycache__/module1.cpython-37.pyc
+  somepackage/__pycache__/module2.cpython-37.pyc
+  somepackage/__pycache__/version.cpython-37.pyc
+  somepackage/module1.py
+  somepackage/module2.py
+  somepackage/version.py
+(base) adipurnamk@Vea-576G:~$ pip list --outdated
+Package        Version             Latest Type 
+-------------- ------------------- ------ -----
+more-itertools 7.2.0               8.0.0  wheel
+prompt-toolkit 2.0.10              3.0.2  wheel
+ruamel-yaml    0.15.46             0.16.5 wheel
+setuptools     42.0.1.post20191125 42.0.2 wheel
+tqdm           4.39.0              4.40.0 wheel
+urllib3        1.24.2              1.25.7 wheel
+(base) adipurnamk@Vea-576G:~$ pip install --upgrade SomePackage
+Requirement already up-to-date: SomePackage in ./miniconda3/lib/python3.7/site-packages (1.2.3)
+(base) adipurnamk@Vea-576G:~$ pip uninstall SomePackage
+Uninstalling somepackage-1.2.3:
+  Would remove:
+    /home/adipurnamk/miniconda3/lib/python3.7/site-packages/somepackage-1.2.3.dist-info/*
+    /home/adipurnamk/miniconda3/lib/python3.7/site-packages/somepackage/*
+Proceed (y/n)? n
+

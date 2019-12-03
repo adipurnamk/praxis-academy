@@ -1,0 +1,17 @@
+(base) adipurnamk@Vea-576G:~$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+ 97 1734k   97 1689k    0     0   348k      0  0:00:04  0:00:04 --:--:--  100 1734k  100 1734k    0     0   348k      0  0:00:04  0:00:04 --:--:--  378k
+(base) adipurnamk@Vea-576G:~$ python get-pip.py
+Collecting pip
+  Using cached https://files.pythonhosted.org/packages/00/b6/9cfa56b4081ad13874b0c6f96af8ce16cfbc1cb06bedf8e9164ce5551ec1/pip-19.3.1-py2.py3-none-any.whl
+Installing collected packages: pip
+  Found existing installation: pip 19.3.1
+    Uninstalling pip-19.3.1:
+      Successfully uninstalled pip-19.3.1
+Successfully installed pip-19.3.1
+(base) adipurnamk@Vea-576G:~$ pip install -U pip
+Requirement already up-to-date: pip in ./miniconda3/lib/python3.7/site-packages (19.3.1)
+(base) adipurnamk@Vea-576G:~$ python -m pip install -U pip
+Requirement already up-to-date: pip in ./miniconda3/lib/python3.7/site-packages (19.3.1)
+
