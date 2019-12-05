@@ -1,0 +1,25 @@
+sejarah oop
+awalnya program dibuat secara prosedural/sekuensial (berurutan)
+kemudian muncul masalah saat aplikasi semakin berkembang, pada akhirnya sekuensial itu dibungkus ke dalam modul
+modul berisi function yg nantinya dapat dipanggil
+setelah itu kebutuhan apikasi semakin besar kembali, function2 ini berhamburan
+akhirnya mereka dibuat supaya ada konteksnya
+	misalkan hitung, apa yg akan dihitung
+	misal ada kelas siswa, ada method hitung
+
+intinu oop mebungkuss modul ke dalam kelas
+
+memandang sesuatu sebagai objek
+
+misal kalkulator
+
+method adalah function di dalam kelas
+
+beda kelas dan object
+
+***************
+
+stdlib
+library bawaan yg bisa dipakai langsung
+
+
