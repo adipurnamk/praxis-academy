@@ -1,0 +1,8 @@
+Serialisasi Data
+merubah data dari python ke bentuk data lain
+
+Serialisasi >< Deserialisasi
+
+
+Data Sumber -----------> X ------------> Data Hasil
+array, dict				.json, .xml  .yaml
