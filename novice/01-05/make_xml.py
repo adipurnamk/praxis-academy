@@ -1,4 +1,5 @@
 from lxml import etree
+import xml
 
 # create XML 
 root = etree.Element('root')

@@ -18,5 +18,5 @@ data['people'].append({
     'from': 'Alabama'
 })
 
-with open('data.txtjson', 'w') as outfile:
+with open('data.json', 'w') as outfile:
     json.dump(data, outfile)
