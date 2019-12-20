@@ -1,0 +1,77 @@
+adipurnamk@Vea-576G:~$ mongo
+MongoDB shell version v4.2.2
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("8260ecd1-8926-4e43-bb47-d1cb1d90f26c") }
+MongoDB server version: 4.2.2
+Server has startup warnings: 
+2019-12-17T11:07:38.665+0700 I  STORAGE  [initandlisten] 
+2019-12-17T11:07:38.665+0700 I  STORAGE  [initandlisten] ** WARNING: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine
+2019-12-17T11:07:38.665+0700 I  STORAGE  [initandlisten] **          See http://dochub.mongodb.org/core/prodnotes-filesystem
+2019-12-17T11:07:40.250+0700 I  CONTROL  [initandlisten] 
+2019-12-17T11:07:40.250+0700 I  CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-12-17T11:07:40.250+0700 I  CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-12-17T11:07:40.250+0700 I  CONTROL  [initandlisten] 
+---
+Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+and anyone you share the URL with. MongoDB may use this information to make product
+improvements and to suggest MongoDB products and deployment options to you.
+
+To enable free monitoring, run the following command: db.enableFreeMonitoring()
+To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+
+> db
+test
+> use test
+switched to db test
+> 
+> 
+> use myNewDatabase
+switched to db myNewDatabase
+> db.myCollection.insertOne( { x: 1 } );
+{
+	"acknowledged" : true,
+	"insertedId" : ObjectId("5df85579086f1414110b19f8")
+}
+> db.getCollection("3 test").find()
+> db.getCollection("3-test").find()
+> db.getCollection("stats").find()
+> db.myCollection.find().pretty()
+{ "_id" : ObjectId("5df85579086f1414110b19f8"), "x" : 1 }
+> > if ( x > 0 ) {
+... ... count++;
+... ... print (x);
+... ... }
+2019-12-17T11:12:39.097+0700 E  QUERY    [js] uncaught exception: SyntaxError: expected expression, got '>' :
+@(shell):1:0
+> if ( x > 0 ) { count++; print (x); }
+2019-12-17T11:12:50.575+0700 E  QUERY    [js] uncaught exception: ReferenceError: x is not defined :
+@(shell):1:1
+> 
+> db.myCollection.c<Tab>
+... c
+CollInfos(                      computeSHA256Block(
+CountDownLatch                  connect(
+cat(                            constructor
+cd(                             convertShardKeyToHashed(
+chatty(                         convertTrafficRecordingToBSON(
+checkProgram(                   copyDbpath(
+clearRawMongoProgramOutput(     copyFile(
+compare(                        create
+compareOn(
+... quit
+2019-12-17T11:13:28.794+0700 E  QUERY    [js] uncaught exception: ReferenceError: Tab is not defined :
+@(shell):1:1
+> quit
+function quit() {
+    [native code]
+}
+> quit
+function quit() {
+    [native code]
+}
+> quit()
+
