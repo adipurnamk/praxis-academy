@@ -1,0 +1,20 @@
+Flask
+-web apps
+-python, flask adalah framework di python
+
+microframework, hanya mengurusi WSGI (
+Fitur pada Flask:
+	1. Web Server
+	2. Routing
+	3. Database
+	Untuk database terserah user, misal
+		*. SQL ALchemy
+		*. PyMySQL
+		*. PyMongo
+	4. View Engine html,
+		*. Jinja 2
+	
+Struktur Project MVC
+M, model	-> data					
+V, view		-> tampilan
+C, controller	-> user request, data dan tampilan

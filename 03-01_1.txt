@@ -1,0 +1,11 @@
+Maintanable
+artinya terstruktur/rapi
+
+Kenapa harus maintanable?
+Karena kita bekerja secara team (kolaborasi)
+
+Tips:
+1. Pilih Pattern
+	MVC, HMVC, Microservices, dll.
+2. Saat mengetik kode, anggaplah menulis kode untuk dibaca manusia
+ 
