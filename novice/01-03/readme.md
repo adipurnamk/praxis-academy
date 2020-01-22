@@ -8,7 +8,7 @@ Setelah itu kebutuhan apikasi semakin membesar kembali. *Function* ini berhambur
 * misalkan hitung, apa yg akan dihitung
 * misal ada kelas siswa, ada method hitung
 
-## Intinya OOP mebungkus modul ke dalam kelas dan memandang sesuatu sebagai objek
+## Intinya OOP membungkus modul ke dalam kelas dan memandang sesuatu sebagai objek
 
 ### Istilah
 
