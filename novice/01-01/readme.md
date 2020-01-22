@@ -7,9 +7,9 @@
 
 ## Perbandingan
 
-Compiler lebih cepat karenaa tidak membaca baris per baris, dan lebih dekat ke bahasa mesin.
+Compiler lebih cepat karena tidak membaca baris per baris, dan lebih dekat ke bahasa mesin.
 Interpreter sedikit lebih lambat karena mambutuhkan translasi untuk dijalankan pada mesin.
-**namun interpreter tidak jadi masalah karena komputer sekarang sudah terhitung cepat.**
+**Namun interpreter tidak jadi masalah karena komputer sekarang sudah terhitung cepat.**
 
 ## pip & conda
 
@@ -20,4 +20,4 @@ Begitu halnya dengan *conda*.
 ## Jupiter
 
 Kode Editor yg dibuat untuk Python, semacam IDE, sama dengan PyCharm, Atom dan VSCode.
-**untuk pemula disrankan tidak memakai ini dulu**
+**Untuk pemula disrankan tidak memakai ini dulu.**
