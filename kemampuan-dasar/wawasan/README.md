@@ -8,18 +8,22 @@ Informasi Teknologi (IT) adalah metode  penggunaan komputer yang berkaitan denga
 
 ### Definisi
 
-Perangkat lunak adalah kumpulan data dengan suatu tampilan yang dapat pengguna gunakan untuk berinteraksi dengan perangkat keras pada suatu komputer. 
+Perangkat lunak adalah kumpulan data dengan suatu tampilan yang dapat pengguna gunakan untuk berinteraksi dengan perangkat keras pada suatu komputer.
 
 ### Pembagian Perangkat Lunak
 
 #### Berdasarkan tujuan
 
-1. Perangkat Lunak Aplikasi
-2. Perangkat Lunak Sistem, terbagi menjadi
-	* Sistem Operasi
-	* Driver Perangkat
-	* Utilitas
-3. Perangkat Lunak Perusak (*Malware*)
+1. Perangkat Lunak Aplikasi.
+2. Perangkat Lunak Sistem, terbagi menjadi.
+
+   * Sistem Operasi
+
+   * Driver Perangkat
+
+   * Utilitas
+
+3. Perangkat Lunak Perusak (*Malware*).
 
 #### Berdasarkan Tempat Eksekusi
 
