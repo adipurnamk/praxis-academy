@@ -42,8 +42,7 @@ Suatu alat yang digunakan untuk mengembangkan suatu perangkat lunak.
 
 Merupakan suatu proses yang meliputi penulisan dan pemeliharaan source code. Lebih luas, Software Develompent juga meliputi perencanaan dalam kedua proses tersebut.
 
-## III.1. Software Engineering
-
+Software Engineering
 Software Engineering adalah pengaplikasian pendekatan rekayasa yang sistematis dalam Software Development
 
 ## IV. Agile Software Development
