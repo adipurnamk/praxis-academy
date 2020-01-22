@@ -40,5 +40,5 @@ Scrum adalah suatu kerangka kerja untuk mengatur suatu proyek yang kompleks, bia
 Anggota tim memecah proyek yang kompleks menjadi goal-goal kecil yang dapat diselesaikan dalam suatu waktu iterasi (sprint), biasanya dalam jangka waktu 2 pekan hingga sebulan.
 
 #VII. Extreme Programming
-
+Suaut metode dalam pengembangan software yang bermaksud untuk meningkatkan kualitas software dan respon untuk menyesuaikan kebutuhan kostomer/user.
 
