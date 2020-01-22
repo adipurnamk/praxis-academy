@@ -26,13 +26,19 @@ Perangkat lunak adalah kumpulan data dengan suatu tampilan yang dapat pengguna g
 Suatu alat yang digunakan untuk mengembangkan suatu perangkat lunak.
 
 #III. Software Development
+Merupakan suatu proses yang meliputi penulisan dan pemeliharaan source code. Lebih luas, Software Develompent juga meliputi perencanaan dalam kedua proses tersebut.
 
 
-#IV. Software Engineering
+#III.1. Software Engineering
+Software Engineering adalah pengaplikasian pendekatan rekayasa yang sistematis dalam Software Development
 
-#V. Agile Software Development
+#IV. Agile Software Development
+Merupakan salah satu macam dari pendekatan Software Development, yang mana dalam pendekatan Agile kebutuhan dan solusi dari proses pengembangan software merupakan hasil kolaborasi antara kemampuan pribadi, kolaborasi team dan feedback dari customer/user.
 
 #VI. Scrum (Software Development)
+Scrum adalah suatu kerangka kerja untuk mengatur suatu proyek yang kompleks, biasanya tim terdiri dari 10  orang atau kurang.
+Anggota tim memecah proyek yang kompleks menjadi goal-goal kecil yang dapat diselesaikan dalam suatu waktu iterasi (sprint), biasanya dalam jangka waktu 2 pekan hingga sebulan.
 
 #VII. Extreme Programming
+
 
