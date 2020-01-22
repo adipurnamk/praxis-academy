@@ -10,8 +10,4 @@ Installing collected packages: pip
     Uninstalling pip-19.3.1:
       Successfully uninstalled pip-19.3.1
 Successfully installed pip-19.3.1
-(base) adipurnamk@Vea-576G:~$ pip install -U pip
-Requirement already up-to-date: pip in ./miniconda3/lib/python3.7/site-packages (19.3.1)
-(base) adipurnamk@Vea-576G:~$ python -m pip install -U pip
-Requirement already up-to-date: pip in ./miniconda3/lib/python3.7/site-packages (19.3.1)
 

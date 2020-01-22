@@ -1,7 +1,7 @@
-compiler dan interpreter
-python itu interpreter
-	interpreter membaca baris per baris tanpa menghasilkan file baru
-	compiler membaca suma source code dan menghasilkan file baru
+# Compiler dan Interpreter
+
+ interpreter membaca baris per baris tanpa menghasilkan file baru
+ compiler membaca suma source code dan menghasilkan file baru
 
 compiler lebih cepat karenaa tidak membaca baris per baris, dan lebih dekat ke bahasa mesin
 interpreter sedikit lebih lambat karena mambutuhkan translasi untuk dijalankan pada mesin

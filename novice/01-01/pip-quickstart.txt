@@ -1,13 +1,3 @@
-(base) adipurnamk@Vea-576G:~$ pip install -U pip
-Requirement already up-to-date: pip in ./.local/lib/python3.7/site-packages (19.3.1)
-(base) adipurnamk@Vea-576G:~$ cls
-
-Perintah 'cls' tidak ditemukan, tapi ada 19 yang serupa.
-
-(base) adipurnamk@Vea-576G:~$ clear
-
-(base) adipurnamk@Vea-576G:~$ $ pip install SomePackage
-$: perintah tidak ditemukan
 (base) adipurnamk@Vea-576G:~$ pip install SomePackage
 Collecting SomePackage
   Downloading https://files.pythonhosted.org/packages/81/f6/cdc617199548a495fd034a4128bb33b35857d2ddb97ddf25c4f29302569e/somepackage-1.2.3.tar.gz
