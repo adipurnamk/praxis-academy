@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Wali Kelas",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Mengatur perangkat kelas",
+      "Mengajar murid",
+      "Bertanggung jawab kepada wali murid",
+      ""
+    ],
+    "collaborators": [
+      "Ketua Kelas",
+      "Murid",
+      "Wali Murid"
+    ]
+  },
+  {
+    "name": "Ketua Kelas",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Bertanggung jawab terhadap kelas",
+      "Memimpin rapat perangkat kelas",
+      "Memimpin kelas"
+    ],
+    "collaborators": [
+      "Wali Kelas",
+      "Sekretaris",
+      "Bendahara",
+      "Murid"
+    ]
+  },
+  {
+    "name": "Sekretaris",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Bertanggung jawab kepada Ketua Kelas",
+      "Notulensi",
+      "Mencatat pelajaran"
+    ],
+    "collaborators": [
+      "Ketua Kelas",
+      "Murid"
+    ]
+  },
+  {
+    "name": "Bendahara",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Bertanggung jawab kepada Ketua Kelas",
+      "Mengumpulkan kas Kelas"
+    ],
+    "collaborators": [
+      "Ketua Kelas",
+      "Murid"
+    ]
+  },
+  {
+    "name": "Murid",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Patuh kepada Wali Kelas, mengerjakan PR",
+      "Patuh kepada Ketua Kelas",
+      "Membayar uang kas",
+      "Patuh kepada Wali Murid"
+    ],
+    "collaborators": [
+      "Wali Kelas",
+      "Ketua Kelas",
+      "Bendahara",
+      "Wali Murid"
+    ]
+  },
+  {
+    "name": "Wali Murid",
+    "superclasses": "",
+    "subclasses": "",
+    "type": 1,
+    "responsibilities": [
+      "Merawat Murid",
+      "Berkonsultasi dengan Wali Kelas"
+    ],
+    "collaborators": [
+      "Murid",
+      "Wali Kelas"
+    ]
+  }
+]
